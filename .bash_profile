@@ -199,3 +199,11 @@ alias hidehidden="defaults write com.apple.finder AppleShowAllFiles FALSE"
 
 # Restart the laptop camera when it fails
 alias camera='sudo killall VDCAssistant'
+
+# Take a video of simulator (makes a video of the simulator and saves it as examplefilename.mov on the desktop)
+# EXAMPLE simvid homepage (produces homepage.mov)
+# ctrl+c in terminal to stop recording
+simvid(){
+	cd ~/Desktop
+	xcrun simctl io booted recordVideo %1.mov
+}
