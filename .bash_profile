@@ -207,3 +207,20 @@ simvid(){
 	cd ~/Desktop
 	xcrun simctl io booted recordVideo %1.mov
 }
+
+# Kill all processs on a port (https://stackoverflow.com/questions/24387451/how-can-i-kill-whatever-process-is-using-port-8080-so-that-i-can-vagrant-up)
+# EXAMPLE stop 8080
+stop(){
+ #!/bin/bash
+    touch temp.text
+    lsof -n -i4TCP:$1 | awk '{print $2}' > temp.text
+    pidToStop=`(sed '2q;d' temp.text)`
+    > temp.text
+    if [[ -n $pidToStop ]]
+    then
+    kill -9 $pidToStop
+    echo "Congrats!! $1 is stopped."
+    else
+    echo "Sorry nothing running on above port"
+    fi
+}
