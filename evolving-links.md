@@ -1,5 +1,7 @@
 # Engineering links
 
+This is really just a mess of links grabbed from my bookmarks. It's all stuff I've found very useful or very interesting.
+
 ## Talks to watch
 - https://github.com/AllThingsSmitty/must-watch-javascript
 - https://github.com/AllThingsSmitty/must-watch-css
@@ -27,7 +29,7 @@
 - http://tutorials.codebar.io/
 
 ## Conferences
-- http://www.catskillsconf.com/?utm_source=News+from+The+Recompiler&utm_campaign=1c246e6c7d-EMAIL_CAMPAIGN_2017_08_11&utm_medium=email&utm_term=0_131cefd51c-1c246e6c7d-64268001&mc_cid=1c246e6c7d&mc_eid=ba7d83b054#about
+- http://www.catskillsconf.com/
 - http://2017.empireconf.org/#schedule
 - http://offlinefirst.org/camp/
 - https://licensezero.com/
