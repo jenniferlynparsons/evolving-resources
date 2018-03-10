@@ -1,6 +1,6 @@
 # I learned a lot, but how much?
 
-(you can read my full thoughts on this [on my blog](http://jenniferlynparsons.github.io/learned-a-lot/)
+_You can read my full thoughts on this [on my blog](http://jenniferlynparsons.github.io/learned-a-lot/)_
 
 When I finish a coding project, I take a little time to reflect on what I learned about programming in general and myself as a person in doing the project. What kind of choices I made, how I reacted to the challenges and hurdles I encountered, and what parts were satisfying or interesting to me. This can help lead my choices for future projects as well as areas that might be interesting to pursue in my study and work choices.
 
