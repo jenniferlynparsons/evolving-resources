@@ -34,7 +34,7 @@ Do you ensure that anything you load from an environment or a file is stuck insi
 
 Do you do stateful things like logging or fetching from databases deep within functions?
 
-How do you corral state
+How do you corral state?
 
 How do you use databases? What in your system has access to databases?
 
